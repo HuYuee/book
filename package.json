@@ -1,0 +1,42 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "book",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.5.0",
+    "fs-extra": "^0.26.0",
+    "gh-pages": "^0.4.0",
+    "gitbook-cli": "^1.0.0"
+  },
+  "devDependencies": {
+    "ebook-convert": "^1.0.0",
+    "gitbook-plugin-ad": "0.0.4",
+    "gitbook-plugin-baidu": "^0.1.0",
+    "gitbook-plugin-disqus": "^0.1.0",
+    "gitbook-plugin-editlink": "^1.0.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-prism": "^1.0.0",
+    "gitbook-plugin-sitemap": "^1.2.0"
+  },
+  "scripts": {
+    "serve": "gitbook serve ./content ./gh-pages",
+    "build": "gitbook build ./content ./gh-pages",
+    "generate-wiki": "node ./scripts/generate-wiki.js",
+    "deploy": "node ./scripts/deploy-gh-pages.js",
+    "deploy-wiki": "./scripts/deploy-wiki.sh",
+    "generate-and-deploy": "npm run generate-gitbook && npm run generate-wiki && npm run deploy-gitbook && npm run deploy-wiki",
+    "publish-gitbook": "./scripts/publish-gitbook.sh",
+    "publish": "npm run build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuyueHappy/book.git"
+  },
+  "author": "huyue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuyueHappy/book/issues"
+  },
+  "homepage": "https://github.com/HuyueHappy/book#readme"
+}

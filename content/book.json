@@ -1,6 +1,6 @@
 {
-  "title": "教你使用gitbook和markdown来写一本书",
-  "description": "教你使用gitbook和markdown来写一本书",
+  "title": "学习心得",
+  "description": "学习心得",
   "language": "zh-hans",
   "gitbook": "2.x.x",
   "plugins": [
@@ -9,7 +9,7 @@
   ],
   "pluginsConfig": {
     "github": {
-      "url": "https://github.com/GuoYongfeng"
+      "url": "https://github.com/HuyueHappy"
     },
     "disqus": {
         "shortName": "gitbookuse"
@@ -20,7 +20,7 @@
       "facebook": false
     },
     "sitemap": {
-      "hostname": "http://guoyongfeng.github.io/idoc/"
+      "hostname": "http://HuyueHappy.github.io/idoc/"
     }
   }
 }

@@ -1,18 +1,13 @@
 {
   "title": "学习心得",
   "description": "学习心得",
-  "language": "zh-hans",
   "gitbook": "2.x.x",
   "plugins": [
-    "github",
-    "disqus"
+    "github"
   ],
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/HuyueHappy"
-    },
-    "disqus": {
-        "shortName": "gitbookuse"
     },
     "sharing": {
       "weibo": true,

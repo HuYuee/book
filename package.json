@@ -22,8 +22,8 @@
   "scripts": {
     "serve": "gitbook serve ./content ./gh-pages",
     "build": "gitbook build ./content ./gh-pages",
-    "generate-wiki": "node ./scripts/generate-wiki.js",
     "deploy": "node ./scripts/deploy-gh-pages.js",
+    "generate-wiki": "node ./scripts/generate-wiki.js",
     "deploy-wiki": "./scripts/deploy-wiki.sh",
     "generate-and-deploy": "npm run generate-gitbook && npm run generate-wiki && npm run deploy-gitbook && npm run deploy-wiki",
     "publish-gitbook": "./scripts/publish-gitbook.sh",
